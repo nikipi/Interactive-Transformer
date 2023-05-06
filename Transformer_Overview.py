@@ -25,15 +25,15 @@ add_page_title()
 
 show_pages(
     [
-        Page("tran_st/Transformer_Overview.py", "Transformer Overview", "🏠"),
-        Page("tran_st/pages/Embedding.py", "Embedding Layer", "1"),
-        Page("tran_st/pages/Positional Encoding Layer.py", "Positional Encoding Layer", "2"),
-        Page("tran_st/pages/Attention Layer.py", "Attention Layer", "3"),
-        Page("tran_st/pages/Feed Forward Layer.py", "Feed Forward Layer", "4"), 
+        Page("Transformer_Overview.py", "Transformer Overview", "🏠"),
+        Page("pages/Embedding.py", "Embedding Layer", "1"),
+        Page("pages/Positional Encoding Layer.py", "Positional Encoding Layer", "2"),
+        Page("pages/Attention Layer.py", "Attention Layer", "3"),
+        Page("pages/Feed Forward Layer.py", "Feed Forward Layer", "4"), 
 
-        Page("tran_st/pages/encoder.py", "Encoder", "5"),
-        Page("tran_st/pages/decoder.py", "Decoder", "6"),
-        Page("tran_st/pages/Transformer Code.py", "Transformer Code", ":books:"),
+        Page("pages/encoder.py", "Encoder", "5"),
+        Page("pages/decoder.py", "Decoder", "6"),
+        Page("pages/Transformer Code.py", "Transformer Code", ":books:"),
     ]
 )
 
