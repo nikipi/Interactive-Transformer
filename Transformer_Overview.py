@@ -54,7 +54,7 @@ st.graphviz_chart('''
     }
     subgraph cluster_decoder {
         label="Decoder";
-        URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/DEcoder"
+        URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Decoder"
         node [fillcolor=grey];
         dec1 [label="OutPut Embedding"];
         dec1 -> mmha [label="Positional Encoding"];
