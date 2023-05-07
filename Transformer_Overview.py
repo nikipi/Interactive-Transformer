@@ -56,8 +56,8 @@ st.graphviz_chart('''
         label="Decoder";
         URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Decoder"
         node [fillcolor=grey];
-        dec1 [label="OutPut Embedding"];
-        dec1 -> mmha [label="Positional Encoding"];
+        dec1 [label="OutPut Embedding"; URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Embedding%20Layer"];
+        dec1 -> mmha [label="Positional Encoding"; URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/"];
         mmha -> mha2 [label="Add & Norm"];
         ff1 -> mha2 [label="Add & Norm"];
         mha2 -> ff2 [label="Add & Norm"];
@@ -67,12 +67,12 @@ st.graphviz_chart('''
         
     }
     input_embeddings [label="Input Embeddings"; URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Embedding%20Layer"];
-    mha [label="Multi-Head Attention"];
+    mha [label="Multi-Head Attention"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Attention%20Layer"];
     
-    ff1 [label="Feed Forward"];
-    mmha [label="Masked Multi-Head Attention"];
-    mha2 [label="Multi-Head Attention"];
-    ff2 [label="Feed Forward"];
+    ff1 [label="Feed Forward"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Feed%20Forward%20Layer"];
+    mmha [label="Masked Multi-Head Attention"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Attention%20Layer"];
+    mha2 [label="Multi-Head Attention"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Attention%20Layer"];
+    ff2 [label="Feed Forward"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Feed%20Forward%20Layer"];
     lin [label= "Linear"];
     soft [label= "Softmax"]
     
