@@ -49,7 +49,7 @@ st.graphviz_chart('''
         URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Encoder"
         node [fillcolor=lightblue];
         input_embeddings -> mha[label="Positional Encoding"; URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Positional%20Encoding%20Layer"];
-        mha -> ff1 [label="Add & Norm"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Layer%20Norm"]];
+        mha -> ff1 [label="Add & Norm"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Layer%20Norm"];
              
         
     }
