@@ -29,10 +29,11 @@ show_pages(
         Page("pages/Embedding.py", "Embedding Layer", "1"),
         Page("pages/Positional Encoding Layer.py", "Positional Encoding Layer", "2"),
         Page("pages/Attention Layer.py", "Attention Layer", "3"),
-        Page("pages/Feed Forward Layer.py", "Feed Forward Layer", "4"), 
+        Page("pages/Layer Norm.py", "Layer Norm", "4"),
+        Page("pages/Feed Forward Layer.py", "Feed Forward Layer", "5"), 
 
-        Page("pages/encoder.py", "Encoder", "5"),
-        Page("pages/decoder.py", "Decoder", "6"),
+        Page("pages/encoder.py", "Encoder", "6"),
+        Page("pages/decoder.py", "Decoder", "7"),
         Page("pages/Transformer Code.py", "Transformer Code", ":books:"),
     ]
 )
