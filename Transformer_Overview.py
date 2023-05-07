@@ -45,7 +45,7 @@ st.graphviz_chart('''
 
     subgraph cluster_encoder {
         label="Encoder";
-        URL="https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+        URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Encoder"
         node [fillcolor=lightblue];
         input_embeddings -> mha[label="Positional Encoding"];
         mha -> ff1 [label="Add & Norm"];
@@ -54,6 +54,7 @@ st.graphviz_chart('''
     }
     subgraph cluster_decoder {
         label="Decoder";
+        URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/DEcoder"
         node [fillcolor=grey];
         dec1 [label="OutPut Embedding"];
         dec1 -> mmha [label="Positional Encoding"];
@@ -65,7 +66,7 @@ st.graphviz_chart('''
        
         
     }
-    input_embeddings [label="Input Embeddings"];
+    input_embeddings [label="Input Embeddings"; URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Embedding%20Layer"];
     mha [label="Multi-Head Attention"];
     
     ff1 [label="Feed Forward"];
