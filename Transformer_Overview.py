@@ -59,10 +59,10 @@ st.graphviz_chart('''
         node [fillcolor=grey];
         dec1 [label="OutPut Embedding"; URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Embedding%20Layer"];
         dec1 -> mmha [label="Positional Encoding"; URL="https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/"];
-        mmha -> mha2 [label="Add & Norm"];
-        ff1 -> mha2 [label="Add & Norm"];
-        mha2 -> ff2 [label="Add & Norm"];
-        ff2 -> lin [label="Add & Norm"];
+        mmha -> mha2 [label="Add & Norm"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Layer%20Norm"];
+        ff1 -> mha2 [label="Add & Norm"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Layer%20Norm"];
+        mha2 -> ff2 [label="Add & Norm"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Layer%20Norm"];
+        ff2 -> lin [label="Add & Norm"; URL= "https://nikipi-interactive-transformer-transformer-overview-pli2pj.streamlit.app/Layer%20Norm"];
         lin -> soft
        
         
